@@ -1,7 +1,7 @@
 = yaml =
-title: "Winter JO's 2014"
-author: "Omar de Armas"
-date: "2013-09-20"
+title: "Winter JO's 2014 at Canyons"
+Meet Referee: "Omar de Armas"
+Meet date: "Jan 17 to 20, 2014"
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
