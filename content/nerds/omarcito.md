@@ -1,5 +1,5 @@
 = yaml =
-role: Host, Developer, & Designer
+role: Developer, & Designer
 name: Omar de Armas
 site: http://omardearmas.com
 twitter: Omarcito

@@ -3,7 +3,7 @@
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px){
   body{
-    background-color: #235B79;
+    background-color: white;
     margin:auto;
     width:100%px;
     .group:after{
@@ -79,6 +79,11 @@
         width: 100%;
         height: 100%;
       }
+    }
+    .formholder{
+      margin: auto 0;
+      width: 100%;
+
     }
     .audiojs{
      width:265px;

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "indestructibleart.com",
+  "name": "scsofficials.com",
   "version": "0.0.0",
   "description": "haiku source code for indestructibleart.com",
   "main": "index.js",
@@ -10,15 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com:Omarcito/indestructibleart.com.git"
+    "url": "git://github.com:OdeArmasSR/scsofficials.com.git"
   },
   "keywords": [
-    "nerds",
-    "video",
-    "games",
-    "comics",
-    "more",
-    "nerds"
+    "swimming",
+    "officials",
+    "scs"
   ],
   "author": "",
   "license": "MIT",

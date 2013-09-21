@@ -2,9 +2,6 @@
 title: ""
 author: ""
 date: 2013-08-12
-subtitle: ""
-layout: articles
-number: /posts/.html
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
