@@ -1,21 +1,14 @@
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px) {
   body header {
-    margin-top: -50px;
-    position: relative;
     width: 100%;
     background-color: white;
     box-shadow: 1px 1px 2px;
   }
-  body header .logo {
-    z-index: 1;
-  }
   body header .logo a {
     text-decoration: none;
-    z-index: 1;
   }
   body header #motto {
-    z-index: 1;
     padding-top: 15px;
     font-family: Georgia, sans-serif;
     font-weight: bolder;
@@ -24,18 +17,16 @@
     font-size: 2.3em;
   }
   body header .header_nav {
-    z-index: 5;
-    margin: -40px auto 0;
+    margin: 0 auto;
     width: 320px;
     text-align: center;
   }
   body header .header_nav .page_links {
-    z-index: 5;
     text-align: center;
   }
   body header .header_nav .page_links li {
     display: inline;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: Georgia, sans-serif;
     list-style: none;
     border-radius: 2px;
     font-size: 1.2em;
@@ -43,7 +34,6 @@
     padding: 1px 3px 0px 3px;
   }
   body header .header_nav .page_links li a {
-    z-index: 5;
     display: inline;
     text-decoration: none;
     color: black;
@@ -51,94 +41,136 @@
   body header .header_nav .page_links li:hover {
     text-decoration: underline;
   }
-  body header .header_nav .social_links {
-    display: none;
-  }
 }
 /*---------------Mobile Landscape Width: 480px---------------*/
 @media screen and (min-width: 480px) {
-  body header {
-    margin-top: -60px;
-  }
   body header #motto {
     padding-top: 10px;
     font-size: 3.2em;
   }
   body header .header_nav {
-    margin: -60px auto 0;
     width: 480px;
   }
   body header .header_nav .page_links li {
     float: left;
   }
-  body header .header_nav .social_links {
-    display: inline;
-  }
-  body header .header_nav .social_links li {
-    float: right;
-    list-style: none;
-    padding: 1px 2px 0px 2px;
-  }
-  body header .header_nav .social_links li a {
-    text-decoration: none;
-  }
-  body header .header_nav .social_links li img {
-    height: 15px;
-    width: 15px;
-    padding: 5px;
-    background-color: #A9A9A9;
-    border-radius: 2px;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    -o-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-  }
-  body header .header_nav .social_links li img:hover {
-    background-color: #778899;
-  }
 }
 /*---------------Tablet Portrait Width: 768px---------------*/
 @media screen and (min-width: 768px) {
-  body header {
-    margin-top: -95px;
-  }
   body header .logo #motto {
     font-size: 5.3em;
   }
   body header .header_nav {
-    margin: -100px auto 0;
     width: 685px;
   }
   body header .header_nav .page_links li {
     font-size: 1.8em;
     padding-right: 10px;
   }
-  body header .header_nav .social_links img {
-    margin-bottom: -15px;
-    height: 30px;
-    width: 30px;
-  }
 }
 /*---------------Tablet Landscape Width: 1024px---------------*/
 @media screen and (min-width: 1024px) {
-  body header {
-    margin-top: -120px;
-  }
   body header .logo #motto {
     font-size: 7.5em;
   }
   body header .header_nav {
-    margin: -130px auto 0;
     width: 990px;
   }
 }
 /*---------------Desktop Width: 1200px---------------*/
-body nav ul, body #features ul {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 0px;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
 }
 
 /*---------------Mobile Portrait Width: 320px---------------*/
@@ -160,35 +192,19 @@ body nav ul, body #features ul {
     top: 0px;
     z-index: 30;
   }
-  body .audiojs {
-    margin: 10px 0px 0px 0px;
-  }
-  body .content {
-    z-index: 10;
-  }
   body .postTitle {
-    font-family: 'Fjalla One', sans-serif;
     font-size: 22px;
-    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;
     font-weight: bolder;
   }
   body .postPublished {
-    font-family: 'Fjalla One', sans-serif;
     font-size: 10px;
-    -webkit-margin-before: 5px;
-    -webkit-margin-after: 0px;
     font-weight: bolder;
   }
   body .postAuthor {
-    font-family: 'Fjalla One', sans-serif;
     font-size: 15px;
-    -webkit-margin-before: 5px;
-    -webkit-margin-after: 0px;
     font-weight: bolder;
   }
   body .postTitleLink {
-    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     color: black;
   }
@@ -208,31 +224,6 @@ body nav ul, body #features ul {
     box-shadow: 2px 2px 2px;
     background-color: white;
   }
-  body .vid_container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    padding-top: 56%;
-  }
-  body .vid_container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  body .formholder {
-    margin: auto 0;
-    width: 100%;
-  }
-  body .audiojs {
-    width: 265px;
-    height: 36px;
-  }
-  body .audiojs .scrubber {
-    width: 90px;
-  }
 }
 /*---------------Mobile Landscape Width: 480px---------------*/
 /*---------------Tablet Portrait Width: 768px---------------*/
@@ -245,13 +236,6 @@ body nav ul, body #features ul {
   }
   body .postAuthor {
     font-size: 20px;
-  }
-  body .audiojs {
-    width: 420px;
-    height: 36px;
-  }
-  body .audiojs .scrubber {
-    width: 245px;
   }
 }
 /*---------------Tablet Landscape Width: 1024px---------------*/
