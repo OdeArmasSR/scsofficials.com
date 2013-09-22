@@ -1,7 +1,6 @@
 = yaml =
-title: "Winter JO's 2014 at Golden West"
-Meet Referee: "Ted Olivieri"
-meet date: "Jan 17 to 20, 2014"
+title: "Winter JO's 2014 hosted by Golden West Swim Club"
+date: "Jan 17 to 20, 2014"
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
